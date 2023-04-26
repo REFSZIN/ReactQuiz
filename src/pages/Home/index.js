@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-
+import PainelQuestions from '../../components/painelQuestions';
 export default function Home() {
   return (
     <Main>
-      
+      <PainelQuestions></PainelQuestions>
     </Main>
   );
 }
